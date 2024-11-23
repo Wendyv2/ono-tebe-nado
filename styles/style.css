@@ -39,7 +39,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cover__title {
@@ -57,7 +57,7 @@
 .aligned-text {
   display: block;
   font-size: 100px;
-  font-family: 'Raleway bold', sans-serif;
+  font-family: "Raleway bold", sans-serif;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -84,7 +84,7 @@
   right: 15px;
   display: flex;
   justify-content: space-between;
-  font-family: 'Raleway normal';
+  font-family: "Raleway normal";
   font-size: 16px;
 }
 
@@ -112,7 +112,7 @@
 }
 
 .lots_heading {
-  font-family: 'Raleway bold', sans-serif;
+  font-family: "Raleway bold", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
   padding-left: 40px;
@@ -163,7 +163,7 @@
 
 .card__title {
   position: relative;
-  font-family: 'Raleway bold', sans-serif;
+  font-family: "Raleway bold", sans-serif;
   font-size: 22px;
   text-transform: uppercase;
 }
@@ -184,9 +184,9 @@
 .about_column {
   display: grid;
   grid-template-columns: 359px 1fr;
-  grid-template-areas: 
-  'about_logo about_title'
-  'about-text about_text';
+  grid-template-areas:
+    "about_logo about_title"
+    "about-text about_text";
   align-items: center;
   margin-top: 148px;
   padding-left: 24px;
@@ -232,7 +232,9 @@
   padding: 0 50px 88px;
 }
 
-footer nav, footer ul, footer address {
+footer nav,
+footer ul,
+footer address {
   width: 33.3%;
 }
 
