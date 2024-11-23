@@ -184,6 +184,7 @@
 .about_column {
   display: grid;
   grid-template-columns: 359px 1fr;
+  grid-template-rows: auto;
   grid-template-areas:
     "about_logo about_title"
     "about-text about_text";
